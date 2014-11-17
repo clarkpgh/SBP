@@ -115,7 +115,7 @@ body {
 }
 
 .middleColumn{
-  margin-left: 8px;
+  margin-left: .3%;
   width: 33%;
   min-height: 35em;
   display:inline-block;
@@ -133,6 +133,7 @@ body {
 }
 
 .rightColumn{
+  margin-right: .2%;
   float: right;
   width: 33%;
   min-height: 35em;
