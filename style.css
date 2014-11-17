@@ -106,15 +106,16 @@ header h3{
 /* **************************************************
                         BODY
 *************************************************** */
-p {color:black;}
+p {color:black;
+}
 body {
 
   background-color: #04A7EE;
 
   font-family: Helvetica;
 
-
 }
+
 /*.middleColumn{
   margin-left: 10px;
   margin-right: 2px;
@@ -164,11 +165,12 @@ body {
     right: 0;
     position: absolute;
     background: #999;
+  }
+
 table{
   clear: both;
   margin:auto;
   border: 2px solid black;
-
 }
 
 
