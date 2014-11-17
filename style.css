@@ -112,22 +112,24 @@ body {
   background-color: #04A7EE;
 
   font-family: Helvetica;
-}
 
-.middleColumn{
+
+}
+/*.middleColumn{
   margin-left: 10px;
   margin-right: 2px;
-  width: 32.3%;
+  width: 32%;
   min-height: 35em;
   display:inline-block;
   border: 2px solid black;
   text-align: center;
   vertical-align: middle;
 }
+
 .leftColumn{
   margin-right: 2px;
   float: left;
-  width: 32.3%;
+  width: 32%;
   min-height: 35em;
   border: 2px solid black;
   text-align: center;
@@ -137,13 +139,31 @@ body {
 .rightColumn{
   margin-right: 20px;
   float: right;
-  width: 32.3%;
+  width: 32%;
   min-height: 35em;
   border: 2px solid black;
   text-align: center;
   vertical-align: middle;
 }
+*/
 
+.column-left {
+    width: 33%;
+    left: 0;
+    background: #00F;
+    position: absolute;
+}
+.column-center {
+    width: 33%;
+    background: #933;
+    margin-left: 33%;
+    position: absolute;
+}
+.column-right {
+    width: 33%;
+    right: 0;
+    position: absolute;
+    background: #999;
 table{
   clear: both;
   margin:auto;
@@ -166,7 +186,7 @@ table{
                         FOOTER
 *************************************************** */
 footer p {
-  color:blue;
+  color:red;
   border: 2px solid black;
 }
 
